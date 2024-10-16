@@ -1,0 +1,200 @@
+body{
+    margin: 0;                              /*убирает отступы от всех краев*/
+    background-image: url(https://altanschool.s3.eu-central-1.amazonaws.com/learns/1697021662483_headerpic.jpg); /*изображение фона*/
+    background-size: 100%;                  /*размер фона*/
+    background-position-y: -50px;           /*изображение чуть поднято наверх*/
+    background-attachment: fixed;           /*фиксация фона*/
+}
+
+header{
+    height: 100%;               /*высота*/
+    padding: 30px;          /*внутренний отступ*/
+    text-align: right;      /*текст выровнени влево*/
+    color: rgb(0, 0, 91); /*цвет текста*/
+    font-size: 25px;        /*размер текста*/
+}
+
+.nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(31, 121, 238, 0.5);
+    font-size: 25px;
+    width: 100%;
+    border: 2px solid white;
+    text-align: center;
+    overflow: hidden;
+}
+
+.nav a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+    float: left;
+}
+
+.nav a:hover{
+    background-color: rgba(250, 235, 215, 0.5);
+    color: black;
+}
+
+h1{
+    padding-top: 50px;  /*Дополнительный отступ заголовка*/
+    font-size: 80px;    /*размер заголовка*/
+    color:rgb(255, 255, 255);  /*цвет*/
+}
+
+main{
+    height: 1000px;   /*высота основной части*/
+    display: flex;
+}
+
+.orange{
+    background: radial-gradient(circle at top left, #00e1ff, #ff7700);
+    width: 500px;
+    text-align: center;
+}
+
+.orange li{
+    background-color: blanchedalmond;
+    line-height: 2em;
+    margin-top: 10px;
+    border-radius: 3em;
+    width: 60%;
+    padding-left: 10px;
+    height: 50px;
+    list-style-type: circle;
+    list-style-position: inside;
+    list-style-type: "\1F44D";
+}
+
+.orange li:hover{
+    background-color: brown;
+    color: white;
+    list-style-type: "\274C";
+    width: 70%;
+    height: 70px;
+}
+
+.green{
+    background: linear-gradient( to left, rgb(0, 145, 7), rgb(88, 255, 110));
+    width: 500px;
+    text-align: center;
+}
+
+.green li{
+    background-color: rgb(165, 221, 165);
+    width: 90%;
+    line-height: 2em;
+    margin-top: 10px;
+    border-radius: 3em;
+    padding-left: 10px;
+    height: 50px;
+    list-style: circle;
+    list-style-position: inside;
+    list-style-type: "\1F355";
+}
+
+.green li:hover{
+    background-color: rgb(23, 102, 16);
+    color: white;
+    list-style-type: "\1F35F";
+    width: 90%;
+    height: 70px;
+}
+
+.blue{
+    background: radial-gradient(circle, rgb(255, 0, 242), rgb(0, 0, 255));
+    width: 500px;
+    text-align: center;
+    line-height: 2em;
+}
+
+.blue li{
+    background-color: rgb(81, 131, 224);
+    line-height: 2em;
+    margin-top: 10px;
+    padding-left: 10px;
+    height: 50px;
+}
+
+.blue li:hover{
+    background-color: darkblue;
+    color: white;
+    list-style-position: inside;
+}
+
+.yellow{
+    background: radial-gradient(circle at right, #f42424, #fff700);
+    width: 500px;
+    text-align: center;
+    line-height: 2em;
+}
+
+.yellow li{
+    list-style-position: inside;
+    line-height: 2em;
+    margin-top: 10px;
+    padding-left: 10px;
+    height: 50px;
+}
+
+.yellow li:hover{
+    background-color: rgb(158, 84, 0);
+    color: white;
+}
+
+footer{
+    height: 100%;    /*высота*/
+    text-align: left;  /*текст выровннен влево*/
+    padding: 50px;   /*внутренний оступ*/
+    color: white;  /*цвет текста*/
+    font-size: 20px;  /*размер текста*/
+}
+
+.social{
+    list-style: none; /*убирает маркеры*/
+    display: flex; /*отображает в ряд*/
+    align-items: left; /*выравнивает иконки по центру внутри каждого пункта*/
+    justify-content: left; /*выравнивает все иконки по центру страницы*/
+    margin: 0;
+    padding: 0;
+}
+
+.social li {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+li{
+    cursor: pointer;
+}
+
+form{
+    width: 600px;
+    float: right;
+    display: flex;
+    margin: 10px;
+}
+
+input{
+    padding: 10px 20px;
+    border: 1px;
+    font-size: 20px;
+}
+
+.search{
+    width: 500px;
+    border: 1px;
+    border-radius: 20px;
+}
+
+.img_button{
+    height: 2em;
+    position: relative;
+}
+.img_button:hover{
+    cursor: pointer;
+}
+
